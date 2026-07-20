@@ -35,24 +35,24 @@ ALPRPipeline (Оркестратор)
 ## Встановлення та запуск
 
 1. **Клонувати репозиторій:**
-   ```bash
-   git clone [https://github.com/SNIZHANADEM/COURSEWORK-ALPR.git](https://github.com/SNIZHANADEM/COURSEWORK-ALPR.git)
-   cd COURSEWORK-ALPR
-   ```
+```bash
+   git clone https://github.com/SnizhanaDem/Coursework-ALPR.git
+   cd Coursework-ALPR/alpr_system
+```
 
 2. **Налаштувати віртуальне середовище та встановити залежності:**
-   ```bash
+```bash
    python -m venv venv
    source venv/bin/activate  # Для Linux/macOS
    # venv\Scripts\activate   # Для Windows
 
    pip install -r requirements.txt
-   ```
+```
 
 3. **Запустити програму:**
-   ```bash
+```bash
    python main.py
-   ```
+```
 
 ## Тестування
 

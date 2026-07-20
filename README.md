@@ -18,10 +18,11 @@
 - **Комп'ютерний зір:** OpenCV, NumPy, SciPy
 - **OCR:** EasyOCR, PyTorch
 - **GUI:** PyQt6
-- **Тестування:** PyTest 
+- **Тестування:** PyTest (38 модульних тестів)
 
 ## Структура проекту
 
+```
 ALPRPipeline (Оркестратор)
 ├── PlateDetector        # Локалізація номерного знака
 ├── image_utils          # Попередня обробка кадру
@@ -29,27 +30,36 @@ ALPRPipeline (Оркестратор)
 ├── CentroidTracker      # Трекінг та керування ID
 ├── PlateValidator       # Позиційна корекція та regex-валідація
 └── PyQt6 GUI            # Візуалізація та виведення логів
+```
 
 ## Встановлення та запуск
 
-1. Клонувати репозиторій:
-   git clone https://github.com/SNIZHANADEM/COURSEWORK-ALPR.git
+1. **Клонувати репозиторій:**
+   ```bash
+   git clone [https://github.com/SNIZHANADEM/COURSEWORK-ALPR.git](https://github.com/SNIZHANADEM/COURSEWORK-ALPR.git)
    cd COURSEWORK-ALPR
+   ```
 
-2. Налаштувати віртуальне середовище та встановити залежності:
+2. **Налаштувати віртуальне середовище та встановити залежності:**
+   ```bash
    python -m venv venv
    source venv/bin/activate  # Для Linux/macOS
    # venv\Scripts\activate   # Для Windows
 
    pip install -r requirements.txt
+   ```
 
-3. Запустити програму:
+3. **Запустити програму:**
+   ```bash
    python main.py
+   ```
 
 ## Тестування
 
-Для запуску модульних тестів:
+Для запуску модульних тестів виконай:
+```bash
 pytest -v
+```
 
 ---
 **Автор:** Сніжана Демко  
